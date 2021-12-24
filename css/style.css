@@ -15,9 +15,9 @@ body
 {
 	background: #2C004F;
 }
-p
+img
 {
-	color: #fcfcfc;
+	pointer-events: none;
 }
 a 
 {
@@ -42,7 +42,7 @@ a
 }
 .wraper-verx
 {
-	width: 1250px;
+	width: 1350px;
     padding: 0 20px;
     margin: 0 auto;
     min-height: 80px;
@@ -51,7 +51,7 @@ a
 {
 	display: flex;
 	position: absolute;
-	width: 1250px;
+	width: 1350px;
 	height: 40px;
 	align-items: center;
 	top: 20px;
@@ -60,7 +60,7 @@ a
 {
 	display: flex;
 position: absolute;
-width: 1250px;
+width: 1350px;
 height: 39px;
 left: 115px;
 top: 21px;
@@ -121,7 +121,7 @@ h3.verx-text-karzina
 	display: flex;
 	position: absolute;
 	height: 100%;
-	left: 80%;
+	left: 91%;
 
 	font-family: Oswald;
 	font-style: normal;
@@ -147,14 +147,13 @@ h3.verx-text-karzina
 }
 .wrapper
 {
-    width: 1250px;
+    width: 1350px;
     padding: 0 20px;
     margin: 0 auto;
-    min-height: 600px;
 }
 .content
 {
-	width: 1250px;
+	width: 100%;
     display: inline-block;
     vertical-align: top;
 }
@@ -172,7 +171,7 @@ h3.verx-text-karzina
 .text h3
 {
 	position: absolute;
-	width: 1250px;
+	width: 1350px;
 	height: 72px;
 	text-align: center;
 	top: 50px;
@@ -190,7 +189,7 @@ color: #FFFFFF;
 .fon img
 {
 	position: sticky;
-	width: 1250px;
+	width: 1350px;
 	height: auto;
 	left: 0px;
 	top: 15px;
@@ -211,38 +210,76 @@ color: #FFFFFF;
 	display: flex;
 	position: relative;
 }
+.button-buy
+{
+	position: absolute;
+	height: 80px;
+	left: 363px;
+	top: 327.93px;
+}
+.text-buy
+{
+	position: absolute;
+	width: 250px;
+	height: 72.27px;
+	left: 0px;
+	top: 0px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 150%;
+	/* or 72px */
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.b-buy
+{
+	width: 250px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+
+	background: #7F0094;
+	box-shadow: 10px 10px 6px -3px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
 .box
 {
 	display: flex;
 	position: absolute;
 	width: 547px;
 	height: 494.15px;
-	left: 0px;
+	left: 100px;
 	top: 0px;
 }
 .name p
 {
 	position: absolute;
-width: 547px;
-height: 91.24px;
-left: 0px;
-top: 0px;
+	width: 547px;
+	height: 91.24px;
+	left: 0px;
+	top: 0px;
 
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 150%;
-/* or 72px */
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 150%;
+	/* or 72px */
 
-align-items: center;
-text-align: center;
+	align-items: center;
+	text-align: center;
 
-color: #FFFFFF;
+	color: #FFFFFF;
 
 }
 .blur
 {
+	display: flex;
 	position: absolute;
 	width: 547px;
 	height: 494.15px;
@@ -250,10 +287,178 @@ color: #FFFFFF;
 
 	background: rgba(196, 196, 196, 0.21);
 	filter: blur(10px);
-	backdrop-filter: blur(10px);
 	/* Note: backdrop-filter has minimal browser support */
 
 	border-radius: 40px;
+}
+.opisanie
+{
+	position: absolute;
+	width: 462px;
+	height: 133.7px;
+	left: 51px;
+	top: 113.83px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	/* or 36px */
+
+
+	color: rgba(255, 255, 255, 0.71);
+}
+.old-prise
+{
+	position: absolute;
+	width: 94px;
+	height: 53px;
+	left: 4px;
+	top: 349.32px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: line-through;
+
+	color: #FF7878;
+}
+.now-prise
+{
+	position: absolute;
+	width: 134px;
+	height: 95px;
+	left: 114px;
+	top: 316.47px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 95px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #fcfcfc;
+}
+.tip-tovara
+{
+	display: flex;
+}
+.tip-tovara h2
+{
+	width: 1350px;
+	height: 140px;
+	top: 1026px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 140px;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.tovar
+{
+	display: flex;
+	width: 100%;
+}
+.akkaynt
+{
+	width: 100%;
+}
+.tovar.akkaynt
+{
+	position: absolute;
+	width: 470px;
+	height: 680px;
+	left: 0px;
+	top: 0px;
+}
+.text-name
+{
+	position: static;
+	width: 450px;
+	left: 0px;
+	top: 540px;
+}
+.akkaynt.text-name
+{
+	display: flex;
+}
+.text-name h1
+{
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 130px;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	width: 450px;
+
+	color: #FFFFFF;
+
+}
+.button
+{
+	display: flex;
+    height: 142.36px;
+    background: #6500B5;
+    border-radius: 0px 0px 45px 45px;
+    margin: 15px;
+}
+.img-akkaynt
+{
+	position: relative;
+}
+.img-akkaynt img
+{
+	display: flex;
+	width: 420px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	background-blend-mode: lighten;
+	mix-blend-mode: normal;
+	border-radius: 45px;
+	margin: 15px;
+}
+.img-key img
+{
+	display: flex;
+	width: 420px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	background-blend-mode: lighten;
+	mix-blend-mode: normal;
+	border-radius: 45px;
+	margin: 15px;
+}
+.img-yslygi img
+{
+	display: flex;
+	width: 420px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+	background-blend-mode: lighten;
+	mix-blend-mode: normal;
+	border-radius: 45px;
+	margin: 15px;
 }
 footer
 {
